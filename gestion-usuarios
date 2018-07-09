@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+  datasource:
+    url-jdbc:mysql: //localhost:8889/blogcice
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver:
+
+
+  
