@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/demo
+    url: jdbc:mysql://localhost:8889/blogcice
     username: root
-    password: p4SSW0rd
+    password: root
     platform: mysql
     initialize: false
   jpa:
