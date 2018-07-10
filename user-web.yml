@@ -1,5 +1,4 @@
 spring:
-  port: 8081
   datasource:
     url: jdbc:mysql://localhost:8889/blogcice
     username: root
