@@ -4,6 +4,10 @@ spring:
     username: root
     password: root
     platform: mysql
-    initialize: false
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
+
+eureka:
+  serviceUri:
+    default: http://localhost:8080/eureka-server
