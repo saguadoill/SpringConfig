@@ -1,0 +1,23 @@
+#Server Port
+server:
+  port: 8765
+#SPRING
+spring:
+  application:
+    name: zuul-server
+  jmx:
+    default-domain:  zuul-server
+#EUREKA
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
+  instance:
+    preferIpAddress: true
+
+#Ribbon Activation
+ribbon:
+  eureka:
+    enabled: true
